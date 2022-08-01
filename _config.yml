@@ -102,4 +102,6 @@ theme: hexo-theme-twentyfifteen-wordpress
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:AubryPei/AubryPei.github.io.git
+  branch: main
